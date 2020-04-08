@@ -29,9 +29,9 @@ namespace Calculater
 
         private void number0_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if (textBox1.Text == "0")
             {
-                textBox1.Text = "";
+                textBox1.Text = "0";
             }
             else
             AddToText("0");
